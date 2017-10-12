@@ -1,0 +1,27 @@
+{
+  "name": "xsl-headfire94",
+  "version": "1.0.0",
+  "description": "https://kodaktor.ru/29092017",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest test.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GossJS/xsl-headfire94.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GossJS/xsl-headfire94/issues"
+  },
+  "homepage": "https://github.com/GossJS/xsl-headfire94#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "request": "^2.83.0"
+  }
+}
