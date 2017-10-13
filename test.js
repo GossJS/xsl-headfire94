@@ -10,7 +10,7 @@ test('respond to request', (done) => {
   const child = spawn('node', ['server.js'], {env});
   child.stdout.on('data', _ => {
     request('http://127.0.0.1:5007', (error, response, body) => {
-      expect(body.indexOf('<h4 id="author" title="GossJS">Иван Иванов</h4>')).not.toBe(-1);
+      expect(body.indexOf('<h4 id="author" title="GossJS">Егор Водопьянов</h4>')).not.toBe(-1);
       done();
       child.kill();
     })
