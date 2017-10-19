@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "https://kodaktor.ru/29092017",
   "main": "server.js",
+  "engines": {
+    "node": ">=8.5.0"
+  },
   "scripts": {
     "test": "jest test.js",
     "start": "node server.js"
