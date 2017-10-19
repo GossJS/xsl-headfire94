@@ -18,6 +18,9 @@ app.get('/', function(request, response) {
 app.get('/xml', function(request, response) {
   response.sendFile(`${path}Task.xml`);
 });
+app.get('/svg', function(request, response) {
+  response.sendFile(`${path}svg/svg.svg`);
+});
 app.get('/author', function(request, response) {
   response.send('Егор Водопьянов');
 });
